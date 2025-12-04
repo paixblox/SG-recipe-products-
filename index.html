@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vegan Baked Sushi Cups (Tofu) · Singapore Savings · TheHealthyBuck</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Vegan baked sushi cups with tofu, plus Healthy Buck's tofu boiling tip, interactive recipe tools, and weekly Singapore grocery ingredient savings across FairPrice, Cold Storage, Giant, Sheng Siong, RedMart & Amazon SG.">
+  <style>
+    :root{
+      --bg: #dff3f5;
+      --card: #ffffff;
+      --text: #0b2a2f;
+      --muted: #5d7d83;
+      --brand: #2aa6b4;
+      --accent: #7ee2b8;
+      --ring: rgba(45, 182, 196, .25);
+      --shadow: 0 18px 40px rgba(7, 30, 36, .12), 0 4px 10px rgba(7, 30, 36, .06);
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0;}
+
+    body{
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Inter, "Helvetica Neue", Arial, sans-serif;
+      color:var(--text);
+      background: var(--bg);
+      line-height:1.55;
+      padding: 20px;
+    }
+
+    a{
+      color:inherit;
+      text-decoration:none;
+    }
+
+    .site-header, .site-footer{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:12px 16px;
+      margin:0 0 18px 0;
+    }
+
+    .site-footer{
+      margin:20px 0 0 0;
+      font-size:14px;
+      color:var(--muted);
+      text-align:center;
+    }
+
+    .site-brand{
+      font-weight:800;
+      text-decoration:none;
+      color:var(--brand);
+      letter-spacing:.5px;
+      text-transform:lowercase;
+      border:1px solid rgba(43,217,217,.18);
+      padding:8px 14px;
+      border-radius:999px;
+      background:linear-gradient(90deg, rgba(126,226,184,.08), rgba(45,182,196,.04));
+    }
+
+    .container{
+      max-width:1120px;
+      margin:0 auto;
+      display:grid;
+      gap:20px;
+      grid-template-columns: 1.3fr .9fr;
+    }
+
+    @media (max-width: 980px){
+      .container{
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .card{
+      background:var(--card);
+      border-radius:24px;
+      box-shadow:var(--shadow);
+      overflow:hidden;
+      border:1px solid rgba(7,30,36,.06);
+    }
+
+    .header{
+      display:flex;
+      gap:14px;
+      align-items:center;
+      padding:18px 20px;
+      border-bottom:1px solid rgba(11,18,32,.06);
+    }
+
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 14px;
+      border-radius:999px;
+      background:linear-gradient(45deg, var(--accent), var(--brand));
+      color:#07353a;
+      font-weight:700;
+      font-size:12px;
+      box-shadow:var(--shadow);
+    }
+
+    h1{
+      font-size:clamp(22px, 3vw, 32px);
+      margin:0 0 6px 0;
+    }
+
+    h2{
+      font-size:18px;
+      margin:0 0 10px 0;
+    }
+
+    .muted{
+      color:var(--muted);
+    }
+
+    .title-area{
+      display:flex;
+      flex-direction:column;
+    }
+
+    .meta-line{
+      font-size:14px;
+    }
+
+    .video-wrap{
+      position:relative;
+      padding:20px;
+      background:rgba(11,18,32,.04);
+    }
+
+    .video-container{
+      position:relative;
+      width:100%;
+      padding-bottom:56.25%;
+      background:#000;
+      border-radius:16px;
+      overflow:hidden;
+    }
+
+    .video-container iframe{
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      border:0;
+    }
+
+    .section{
+      padding:18px 20px;
+      border-top:1px solid rgba(11,18,32,.04);
+    }
+
+    .section:first-of-type{
+      border-top:none;
+    }
+
+    .section-title-row{
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      align-items:flex-start;
+      flex-wrap:wrap;
+    }
+
+    .tip-card{
+      margin-top:10px;
+      padding:12px 12px 13px;
+      border-radius:16px;
+      border:1px solid rgba(11,18,32,.08);
+      background:linear-gradient(135deg, rgba(126,226,184,.16), rgba(45,182,196,.06));
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+    }
+
+    .tip-icon{
+      font-size:18px;
+    }
+
+    .tip-body strong{
+      display:block;
+      margin-bottom:3px;
+    }
+
+    .steps{
+      display:grid;
+      gap:12px;
+      margin-top:8px;
+    }
+
+    .step{
+      padding:14px;
+      border:1px solid rgba(11,18,32,.06);
+      border-radius:12px;
+      background:linear-gradient(180deg, rgba(255,255,255,.9), rgba(255,255,255,.98));
+    }
+
+    .step-header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+
+    .step h3{
+      margin:0;
+      font-size:16px;
+    }
+
+    .controls{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      align-items:center;
+    }
+
+    .btn{
+      appearance:none;
+      border:1px solid rgba(11,18,32,.12);
+      background:#fff;
+      border-radius:999px;
+      padding:7px 12px;
+      font-weight:600;
+      cursor:pointer;
+      transition:transform .02s ease, box-shadow .2s ease;
+      font-size:14px;
+      display:inline-flex;
+      align-items:center;
+      gap:4px;
+    }
+
+    .btn:hover{
+      box-shadow:var(--shadow);
+    }
+
+    .btn:active{
+      transform:translateY(1px);
+    }
+
+    .btn.primary{
+      background:linear-gradient(90deg, var(--accent), var(--brand));
+      border:0;
+      color:#053136;
+      box-shadow:var(--shadow);
+    }
+
+    .timer{
+      font-variant-numeric: tabular-nums;
+      background:rgba(11,18,32,.06);
+      padding:6px 10px;
+      border-radius:10px;
+      font-weight:600;
+      min-width:64px;
+      text-align:center;
+    }
+
+    .timer.done{
+      background:rgba(46,204,113,.18);
+      border:1px solid rgba(46,204,113,.45);
+    }
+
+    .ingredients{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:10px;
+    }
+
+    .ing{
+      display:flex;
+      align-items:flex-start;
+      gap:10px;
+      padding:9px 11px;
+      border-radius:12px;
+      border:1px solid rgba(11,18,32,.06);
+      background:linear-gradient(180deg, rgba(255,255,255,.85), rgba(255,255,255,.97));
+      font-size:14px;
+    }
+
+    .ing input{
+      transform:translateY(3px);
+      cursor:pointer;
+    }
+
+    .qty{
+      font-weight:600;
+    }
+
+    .ing .optional{
+      background: rgba(43,217,217,.14);
+      color:#046e6e;
+      border-radius:999px;
+      padding:1px 7px;
+      font-size:11px;
+      margin-left:6px;
+    }
+
+    .ing.highlight{
+      border-color: rgba(43,217,217,.5);
+      box-shadow: inset 0 0 0 1px rgba(43,217,217,.35);
+    }
+
+    .sidebar-section{
+      padding:16px 18px;
+      border-top:1px solid rgba(11,18,32,.04);
+    }
+
+    .sidebar-section:first-of-type{
+      border-top:none;
+    }
+
+    .sidebar-section h2{
+      margin-bottom:10px;
+    }
+
+    .pill-small{
+      display:inline-flex;
+      align-items:center;
+      padding:5px 10px;
+      border-radius:999px;
+      font-size:11px;
+      text-transform:uppercase;
+      letter-spacing:.09em;
+      background:rgba(126,226,184,.18);
+      color:#065f46;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+
+    .sg-table-wrap{
+      margin-top:8px;
+      border-radius:14px;
+      border:1px solid rgba(11,18,32,.08);
+      background:rgba(255,255,255,.96);
+      overflow:hidden;
+    }
+
+    table{
+      width:100%;
+      border-collapse:collapse;
+      font-size:13px;
+    }
+
+    th, td{
+      padding:7px 8px;
+      text-align:left;
+      border-bottom:1px solid rgba(148,163,184,.25);
+    }
+
+    th{
+      background:rgba(226,232,240,.55);
+      font-size:11px;
+      color:#4b5563;
+      text-transform:uppercase;
+      letter-spacing:.06em;
+    }
+
+    tr:last-child td{
+      border-bottom:none;
+    }
+
+    tr.best-row{
+      background:rgba(209,250,229,.6);
+    }
+
+    .store-tag{
+      display:inline-flex;
+      align-items:center;
+      padding:2px 7px;
+      border-radius:999px;
+      background:#ecfeff;
+      border:1px solid rgba(8,145,178,.35);
+      font-size:11px;
+      color:#0369a1;
+      gap:4px;
+    }
+
+    .sg-note{
+      font-size:12px;
+      color:var(--muted);
+      padding:8px 10px 10px;
+    }
+
+    .sg-note strong{
+      color:#065f46;
+    }
+
+    .cal-controls{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      align-items:center;
+      margin-top:10px;
+      font-size:13px;
+    }
+
+    .cal-controls input[type="datetime-local"],
+    .cal-controls input[type="text"]{
+      padding:8px 10px;
+      border:1px solid rgba(11,18,32,.12);
+      border-radius:10px;
+      font-size:13px;
+      min-width:190px;
+      flex:1;
+    }
+
+    .shop-tools{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:10px;
+    }
+
+    .shop-tools .btn{
+      font-size:13px;
+      padding:8px 12px;
+    }
+
+    .chips-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+    }
+
+    .chip{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,18,32,.12);
+      background:#fff;
+      font-size:13px;
+    }
+
+    .chip button{
+      border:none;
+      background:transparent;
+      cursor:pointer;
+      font-size:13px;
+      padding:0 2px;
+    }
+
+    .facts{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:12px;
+      margin-top:6px;
+      font-size:14px;
+    }
+
+    .fact{
+      padding:12px;
+      border-radius:12px;
+      border:1px solid rgba(11,18,32,.08);
+      background:linear-gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.99));
+    }
+
+    .fact strong{
+      display:block;
+      margin-bottom:4px;
+    }
+
+    .fact-bullet{
+      display:flex;
+      gap:7px;
+      align-items:flex-start;
+      margin:4px 0;
+    }
+
+    .dot{
+      width:7px;
+      height:7px;
+      border-radius:999px;
+      background:var(--brand);
+      box-shadow:0 0 0 3px var(--ring);
+      flex:0 0 7px;
+      margin-top:6px;
+    }
+
+    .footer-meta{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:14px 18px;
+      border-top:1px solid rgba(7,30,36,.06);
+      font-size:13px;
+      color:var(--muted);
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .footer-meta a{
+      text-decoration:underline;
+    }
+
+    .privacy-card,
+    .tools-card,
+    .cta-card{
+      max-width:1120px;
+      margin:18px auto 0;
+      background:rgba(255,255,255,.96);
+      border-radius:22px;
+      border:1px solid rgba(148,163,184,.4);
+      box-shadow:var(--shadow);
+      padding:18px 18px 20px;
+    }
+
+    .privacy-tag{
+      display:inline-flex;
+      padding:4px 10px;
+      border-radius:999px;
+      font-size:11px;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      background: rgba(115,213,174,0.2);
+      color: #1e6b52;
+      margin-bottom:8px;
+      font-weight:700;
+    }
+
+    .tools-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:10px;
+      margin-top:10px;
+    }
+
+    .tool-item{
+      padding:10px 11px;
+      border-radius:13px;
+      border:1px solid rgba(148,163,184,.5);
+      background:rgba(255,255,255,.98);
+      font-size:14px;
+    }
+
+    .tool-item strong{
+      display:block;
+      margin-bottom:4px;
+    }
+
+    .cta-main{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+    }
+
+    .cta-buttons{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:8px;
+    }
+
+    .cta-price{
+      font-size:14px;
+      color:var(--muted);
+    }
+
+    .highlight{
+      color:#065f46;
+    }
+
+    #prep-progress{
+      margin-left:auto;
+      font-size:13px;
+    }
+
+    @media (max-width:640px){
+      body{padding:16px;}
+      .section, .sidebar-section{padding:16px;}
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-brand" href="https://thehealthybuck.com" target="_blank" rel="noopener">thehealthybuck.com</a>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <!-- LEFT COLUMN: VIDEO, TIP, STEPS -->
+      <section class="card" aria-labelledby="title">
+        <div class="header">
+          <div class="badge" aria-hidden="true">🍣 Recipe · Vegan</div>
+          <div class="title-area">
+            <h1 id="title">Vegan Baked Sushi Cups (With Tofu)</h1>
+            <div class="meta-line muted" id="meta">
+              Prep ~15 min · Bake 25 min · Makes 12 cups
+            </div>
+          </div>
+        </div>
+
+        <div class="video-wrap">
+          <div class="video-container">
+            <!-- Live Eat Learn video -->
+            <iframe
+              src="https://www.youtube.com/embed/_DFLpHdsfiE"
+              title="Vegan Baked Sushi Cups (With Tofu) – Live Eat Learn"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title-row">
+            <h2>Healthy Buck Tofu Tip</h2>
+          </div>
+          <div class="tip-card">
+            <div class="tip-icon">⭐</div>
+            <div class="tip-body">
+              <strong>Make your tofu firmer and chewier before baking.</strong>
+              <p class="muted">
+                After cutting your tofu into cubes, bring a pot of lightly salted water to a gentle boil.
+                Add the tofu and boil for about <strong>3 minutes</strong>, then drain and pat dry.
+                This simple step tightens the tofu’s texture so it bakes up chewy and satisfying in these sushi cups
+                (and in almost any tofu recipe).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title-row">
+            <h2>Steps &amp; Timers</h2>
+            <p class="muted" style="font-size:13px;max-width:260px;">
+              Tap <strong>Start</strong> on each step to keep the recipe moving without juggling your phone’s clock.
+            </p>
+          </div>
+          <div class="steps" id="steps"></div>
+        </div>
+
+        <div class="section" id="calendar-section">
+          <div class="section-title-row">
+            <h2>📅 Add this cook to your calendar</h2>
+            <p class="muted" style="font-size:13px;max-width:260px;">
+              Block a quick session to bake these cups — they reheat well for tomorrow’s lunches.
+            </p>
+          </div>
+          <div class="cal-controls">
+            <label for="cal-start" class="muted">Start time:</label>
+            <input id="cal-start" type="datetime-local">
+            <button type="button" id="open-web-calendar" class="btn primary">Open Google Calendar</button>
+          </div>
+          <div class="cal-controls" style="margin-top:6px;">
+            <label class="muted" style="display:flex;align-items:center;gap:6px;">
+              <input id="include-shopping-event" type="checkbox">
+              Include shopping list in event description
+            </label>
+          </div>
+        </div>
+
+        <div class="footer-meta">
+          <span class="muted">
+            Video source: <a href="http://www.youtube.com/watch?v=_DFLpHdsfiE" target="_blank" rel="noopener">Live Eat Learn · Vegan Baked Sushi Cups (With Tofu)</a>
+          </span>
+          <span class="muted">
+            Recipe tools &amp; page by <a href="https://thehealthybuck.com" target="_blank" rel="noopener">TheHealthyBuck</a>
+          </span>
+        </div>
+      </section>
+
+      <!-- RIGHT COLUMN: SG SAVINGS, INGREDIENTS, FACTS -->
+      <aside class="card" aria-labelledby="ingredients-title">
+        <div class="header">
+          <div>
+            <div class="pill-small">Singapore · Weekly Savings</div>
+            <h2 id="ingredients-title" style="margin:2px 0 3px;">Ingredients &amp; Singapore Savings</h2>
+            <p class="muted" style="font-size:13px;">
+              Check off what you already have, then see which stores are cheapest for the rest.
+            </p>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <h2 style="margin-bottom:6px;">Top 10 Ingredients · Singapore</h2>
+          <p class="muted" style="font-size:13px;margin-bottom:6px;">
+            Updated weekly from <strong>FairPrice</strong>, <strong>Cold Storage</strong>, <strong>Giant</strong>,
+            <strong>Sheng Siong</strong>, <strong>RedMart</strong> &amp; <strong>Amazon SG</strong>.
+          </p>
+          <div class="sg-table-wrap">
+            <table aria-label="Singapore ingredient savings">
+              <thead>
+                <tr>
+                  <th>Ingredient</th>
+                  <th>Best store</th>
+                  <th>Price</th>
+                  <th>Others</th>
+                </tr>
+              </thead>
+              <tbody id="sg-rows">
+                <!-- Filled by JS -->
+              </tbody>
+            </table>
+            <div class="sg-note">
+              <strong>Note:</strong> Values are examples. Update the data object in the code below each week with actual
+              Singapore prices to keep this table current.
+            </div>
+          </div>
+          <div class="cal-controls" style="margin-top:10px;">
+            <button type="button" class="btn primary" id="view-full-sg-tool">
+              → Compare full Singapore grocery basket (members)
+            </button>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <h2>Ingredients (for ~12 cups)</h2>
+          <div class="ingredients" id="ingredients"></div>
+
+          <div class="shop-tools">
+            <button id="copy-shopping" class="btn primary">📋 Copy shopping list</button>
+            <button id="copy-comma" class="btn">Copy comma list</button>
+            <button id="share-shopping" class="btn">Share</button>
+            <button id="download-shopping-txt" class="btn">Download .txt</button>
+            <button id="email-list" class="btn">📧 Email</button>
+          </div>
+
+          <div class="cal-controls" style="margin-top:10px;">
+            <input id="custom-item-input" type="text" placeholder="Add custom item (e.g., cucumber, sesame seeds)">
+            <button id="add-custom-item" class="btn">+ Add item</button>
+          </div>
+
+          <div style="margin-top:10px;">
+            <div class="muted" style="font-size:13px;margin-bottom:4px;">Custom items</div>
+            <div id="custom-items-list" class="chips-row"></div>
+          </div>
+
+          <div class="cal-controls" style="margin-top:6px;">
+            <div id="prep-progress" class="muted"></div>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <h2>Ingredient Facts</h2>
+          <div class="facts" id="facts"></div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- PRIVACY, TOOLS, CTA -->
+    <section class="privacy-card" aria-labelledby="privacy-title">
+      <div class="privacy-tag">Private tools · Entries stay on your device</div>
+      <h2 id="privacy-title">Healthy Buck is private by design.</h2>
+      <p class="muted" style="margin-top:4px;font-size:14px;">
+        The tools are built for people who care about their privacy. Your entries stay in your browser and you stay in control —
+        there are no app accounts to create, no third-party trackers, and no selling or sharing of your personal information.
+      </p>
+      <ul style="list-style:none;margin-top:10px;font-size:13px;color:var(--muted);padding-left:0;">
+        <li style="display:flex;gap:6px;align-items:flex-start;margin-bottom:6px;">
+          <span class="dot"></span><span>No app accounts needed to use the tools.</span>
+        </li>
+        <li style="display:flex;gap:6px;align-items:flex-start;margin-bottom:6px;">
+          <span class="dot"></span><span>Journal and tracker entries stay in your browser, not on our servers.</span>
+        </li>
+        <li style="display:flex;gap:6px;align-items:flex-start;margin-bottom:6px;">
+          <span class="dot"></span><span>No ad tracking, no selling or sharing of your information.</span>
+        </li>
+        <li style="display:flex;gap:6px;align-items:flex-start;margin-bottom:0;">
+          <span class="dot"></span><span>You can clear your data anytime from your own device settings.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="tools-card" aria-labelledby="tools-title">
+      <h2 id="tools-title">What you get with a Healthy Buck membership</h2>
+      <p class="muted" style="margin-top:4px;font-size:14px;">
+        All tools run in your browser, stay out of your way, and help you quietly stack healthy decisions over time.
+      </p>
+      <div class="tools-grid">
+        <div class="tool-item">
+          <strong>🇸🇬 Singapore Grocery Savings</strong>
+          <span class="muted">Weekly comparison of healthy staples across FairPrice, Cold Storage, Giant, Sheng Siong, RedMart &amp; Amazon SG.</span>
+        </div>
+        <div class="tool-item">
+          <strong>GLP-1 Helpers Directory</strong>
+          <span class="muted">Natural foods and supplements explorer (no prescription meds) with quick brand and education links.</span>
+        </div>
+        <div class="tool-item">
+          <strong>Recipe timers &amp; shopping tools</strong>
+          <span class="muted">Interactive steps, timers, and one-tap shopping lists for featured recipes like these sushi cups.</span>
+        </div>
+        <div class="tool-item">
+          <strong>Private journal &amp; trackers</strong>
+          <span class="muted">Daily check-ins for energy, sleep, movement, and mood that never leave your device.</span>
+        </div>
+        <div class="tool-item">
+          <strong>Forecast tools</strong>
+          <span class="muted">Simple calculators for calories, weight trends, and long-term consistency — built to motivate, not shame.</span>
+        </div>
+        <div class="tool-item">
+          <strong>Distraction-free hub</strong>
+          <span class="muted">One clean, password-protected page with everything in one place — no feeds, no doomscrolling.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-card" aria-labelledby="cta-title">
+      <div class="cta-main">
+        <h2 id="cta-title">Start your 7-day free trial</h2>
+        <p class="muted" style="font-size:14px;">
+          Get full access to the Singapore grocery savings tool, recipe helpers, and private wellness trackers in just a couple of clicks.
+          Billing and access are managed by Substack — you can cancel anytime.
+        </p>
+        <div class="cta-buttons">
+          <a href="https://your-substack-signup-link-here" class="btn primary" target="_blank" rel="noopener">
+            Start free trial
+          </a>
+          <span class="cta-price">
+            Then <span class="highlight">SGD $7/month</span> or <span class="highlight">SGD $70/year</span>, billed securely via Substack.
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span class="muted">
+      &copy; <span id="year"></span> TheHealthyBuck · All tools are informational and do not replace medical advice.
+    </span>
+  </footer>
+
+  <script>
+    // ----------- DATA -----------
+    // Ingredient + steps + facts for this recipe
+    const RECIPE_DATA = {
+      ingredients: [
+        { item: "Firm tofu, pressed (or pre-marinated miso tofu)", qty: "400–450 g", highlight: true },
+        { item: "Vegan mayonnaise", qty: "1/4 cup" },
+        { item: "Vegan cream cheese", qty: "1/4 cup" },
+        { item: "Sriracha", qty: "1–2 tbsp", optional: true },
+        { item: "Cooked sushi rice", qty: "2–3 cups" },
+        { item: "Nori sheets, cut into squares", qty: "12" },
+        { item: "Avocado, sliced (topping)", qty: "1", optional: true },
+        { item: "Green onion, thinly sliced (topping)", qty: "2 tbsp", optional: true },
+        { item: "Spicy mayo (vegan mayo + Sriracha)", qty: "to drizzle", optional: true },
+        { item: "Sesame seeds (optional garnish)", qty: "1–2 tbsp", optional: true }
+      ],
+      steps: [
+        {
+          title: "Boil tofu in salted water",
+          details: "Cut tofu into cubes. Bring lightly salted water to a gentle boil, add tofu, and boil for about 3 minutes. Drain and pat dry.",
+          mm: 3, ss: 0
+        },
+        {
+          title: "Mix tofu filling",
+          details: "In a bowl, combine boiled tofu with vegan mayo, vegan cream cheese, and Sriracha. Stir until everything is well coated.",
+          mm: 2, ss: 0
+        },
+        {
+          title: "Line muffin tin with nori & rice",
+          details: "Cut nori sheets into squares. Press a spoonful of sushi rice onto each square, then press into a greased muffin tin cup.",
+          mm: 4, ss: 0
+        },
+        {
+          title: "Fill cups with tofu mixture",
+          details: "Spoon the tofu filling onto each rice-lined nori cup, mounding slightly.",
+          mm: 2, ss: 0
+        },
+        {
+          title: "Bake",
+          details: "Bake at 400°F / 200°C for about 25 minutes, until the tops are lightly browned and edges are crisp.",
+          mm: 25, ss: 0
+        },
+        {
+          title: "Top & serve",
+          details: "Finish with avocado slices, green onion, sesame seeds, and spicy mayo if you like. Serve warm.",
+          mm: 1, ss: 0
+        }
+      ],
+      facts: [
+        {
+          name: "Tofu",
+          bullets: [
+            "Plant-based protein that takes on the flavors of your marinade or sauce.",
+            "Boiling briefly in salted water before cooking gives it a firmer, chewier texture.",
+            "A budget-friendly protein that works across many different cuisines."
+          ]
+        },
+        {
+          name: "Nori & sushi rice",
+          bullets: [
+            "Nori adds umami and minerals with almost no calories.",
+            "Sushi rice gives the cups structure and that classic sushi bite.",
+            "Great way to use leftover rice from the night before."
+          ]
+        },
+        {
+          name: "Avocado & green onion",
+          bullets: [
+            "Avocado adds creaminess and healthy fats.",
+            "Green onion brings freshness and a bit of bite.",
+            "Both help the baked cups feel more like a full meal."
+          ]
+        },
+        {
+          name: "Spicy mayo & Sriracha",
+          bullets: [
+            "A small drizzle of spicy mayo goes a long way in flavor.",
+            "Easy to adjust heat level to your taste.",
+            "Pairs especially well with the crisped nori and tofu."
+          ]
+        }
+      ]
+    };
+
+    // Example Singapore ingredient savings data.
+    // TODO: update these values weekly with actual prices.
+    const SG_INGREDIENT_SAVINGS = [
+      {
+        ingredient: "Firm tofu",
+        bestStore: "Sheng Siong",
+        price: "S$1.60 / block",
+        others: "FairPrice ~S$1.85 · Cold Storage ~S$2.10"
+      },
+      {
+        ingredient: "Nori sheets",
+        bestStore: "RedMart",
+        price: "S$3.50 / pack",
+        others: "Amazon SG ~S$3.90 · FairPrice ~S$4.20"
+      },
+      {
+        ingredient: "Sushi rice",
+        bestStore: "FairPrice",
+        price: "S$6.90 / kg",
+        others: "Giant ~S$7.20 · Cold Storage ~S$7.80"
+      },
+      {
+        ingredient: "Vegan mayo",
+        bestStore: "Cold Storage",
+        price: "S$6.50 / jar",
+        others: "FairPrice ~S$6.90 · Amazon SG ~S$7.20"
+      },
+      {
+        ingredient: "Vegan cream cheese",
+        bestStore: "Amazon SG",
+        price: "S$7.90 / tub",
+        others: "RedMart ~S$8.40"
+      },
+      {
+        ingredient: "Avocado",
+        bestStore: "Cold Storage",
+        price: "S$1.70 each",
+        others: "FairPrice ~S$1.90 · FairPrice Finest ~S$2.10"
+      },
+      {
+        ingredient: "Green onion",
+        bestStore: "Sheng Siong",
+        price: "S$0.90 / bunch",
+        others: "FairPrice ~S$1.10 · Giant ~S$1.20"
+      },
+      {
+        ingredient: "Sesame seeds",
+        bestStore: "FairPrice",
+        price: "S$2.50 / pack",
+        others: "RedMart ~S$2.90 · Amazon SG ~S$3.20"
+      },
+      {
+        ingredient: "Sriracha",
+        bestStore: "Giant",
+        price: "S$4.20 / bottle",
+        others: "FairPrice ~S$4.50 · Cold Storage ~S$4.90"
+      },
+      {
+        ingredient: "Baking spray / oil",
+        bestStore: "FairPrice",
+        price: "S$4.00 / bottle",
+        others: "Giant ~S$4.20 · Cold Storage ~S$4.50"
+      }
+    ];
+
+    // ----------- UTILS -----------
+    const CUSTOM_ITEMS_KEY = 'hb-vegan-sushi-custom-items';
+
+    function readCustomItems(){
+      try {
+        return JSON.parse(localStorage.getItem(CUSTOM_ITEMS_KEY) || '[]');
+      } catch {
+        return [];
+      }
+    }
+
+    function writeCustomItems(items){
+      localStorage.setItem(CUSTOM_ITEMS_KEY, JSON.stringify(items));
+    }
+
+    function ingredientStateKey(i){
+      return `hb-vegan-sushi-ing-${i}`;
+    }
+
+    function copyText(text){
+      if(navigator.clipboard?.writeText){
+        return navigator.clipboard.writeText(text).then(()=>true,()=>false);
+      }
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      let ok = false;
+      try{ ok = document.execCommand('copy'); } finally{ ta.remove(); }
+      return Promise.resolve(ok);
+    }
+
+    function shareText(title, text){
+      if(navigator.share){
+        return navigator.share({title, text}).then(()=>true,()=>false);
+      }
+      return Promise.resolve(false);
+    }
+
+    function listAsBullets(items, bullet='• '){
+      if(!items.length) return 'All ingredients on hand.';
+      return items.map(x => `${bullet}${x}`).join('\n');
+    }
+
+    function two(n){
+      return String(n).padStart(2,'0');
+    }
+
+    // ----------- INGREDIENTS & SHOPPING LIST -----------
+    function getShoppingList(){
+      const items = [];
+      document.querySelectorAll('#ingredients .ing').forEach(label => {
+        const box = label.querySelector('input[type="checkbox"]');
+        const text = label.dataset.text;
+        const optional = label.dataset.optional === 'true';
+        if(!box.checked){
+          items.push(optional ? `${text} (optional)` : text);
+        }
+      });
+      readCustomItems().forEach(ci => items.push(ci));
+      return items;
+    }
+
+    function updatePrepProgress(){
+      const boxes = Array.from(document.querySelectorAll('#ingredients .ing input[type="checkbox"]'));
+      if(!boxes.length) return;
+      const done = boxes.filter(b => b.checked).length;
+      const pct = Math.round((done / boxes.length) * 100);
+      const el = document.getElementById('prep-progress');
+      if(el){
+        el.textContent = `${pct}% ingredients checked (${done}/${boxes.length})`;
+      }
+    }
+
+    function renderIngredients(){
+      const wrap = document.getElementById('ingredients');
+      wrap.innerHTML = '';
+      RECIPE_DATA.ingredients.forEach((ing, i) => {
+        const id = `ing-${i}`;
+        const el = document.createElement('label');
+        el.className = 'ing';
+        if(ing.highlight) el.classList.add('highlight');
+        const optionalBadge = ing.optional ? '<span class="optional">optional</span>' : '';
+        const text = `${ing.qty} · ${ing.item}`;
+        el.dataset.text = text;
+        el.dataset.optional = ing.optional ? 'true' : 'false';
+
+        el.innerHTML = `
+          <input id="${id}" type="checkbox">
+          <div>
+            <div><span class="qty">${ing.qty}</span> · ${ing.item} ${optionalBadge}</div>
+          </div>
+        `;
+
+        const input = el.querySelector('input');
+        const saved = localStorage.getItem(ingredientStateKey(i));
+        if(saved !== null){
+          input.checked = saved === 'true';
+        }
+
+        input.addEventListener('change', () => {
+          localStorage.setItem(ingredientStateKey(i), input.checked ? 'true' : 'false');
+          updatePrepProgress();
+        });
+
+        wrap.appendChild(el);
+      });
+      updatePrepProgress();
+    }
+
+    function renderCustomItems(){
+      const container = document.getElementById('custom-items-list');
+      container.innerHTML = '';
+      const items = readCustomItems();
+      items.forEach((txt, idx) => {
+        const chip = document.createElement('div');
+        chip.className = 'chip';
+        chip.innerHTML = `
+          <span>${txt}</span>
+          <button type="button" data-i="${idx}" aria-label="Remove ${txt}">×</button>
+        `;
+        chip.querySelector('button').addEventListener('click', e => {
+          const i = Number(e.currentTarget.getAttribute('data-i'));
+          const arr = readCustomItems();
+          arr.splice(i, 1);
+          writeCustomItems(arr);
+          renderCustomItems();
+        });
+        container.appendChild(chip);
+      });
+    }
+
+    function initShopTools(){
+      const addBtn = document.getElementById('add-custom-item');
+      const input = document.getElementById('custom-item-input');
+      const copyBtn = document.getElementById('copy-shopping');
+      const copyCommaBtn = document.getElementById('copy-comma');
+      const shareBtn = document.getElementById('share-shopping');
+      const txtBtn = document.getElementById('download-shopping-txt');
+      const emailBtn = document.getElementById('email-list');
+
+      if(addBtn && input){
+        const add = () => {
+          const v = input.value.trim();
+          if(!v) return;
+          const arr = readCustomItems();
+          arr.push(v);
+          writeCustomItems(arr);
+          input.value = '';
+          renderCustomItems();
+        };
+        addBtn.addEventListener('click', add);
+        input.addEventListener('keydown', e => {
+          if(e.key === 'Enter'){
+            e.preventDefault();
+            add();
+          }
+        });
+      }
+
+      if(copyBtn){
+        copyBtn.addEventListener('click', () => {
+          const items = getShoppingList();
+          const text = listAsBullets(items);
+          copyText(text).then(ok => {
+            if(ok){
+              alert(`✅ Copied ${items.length} item${items.length !== 1 ? 's' : ''} to clipboard.`);
+            }
+          });
+        });
+      }
+
+      if(copyCommaBtn){
+        copyCommaBtn.addEventListener('click', () => {
+          const items = getShoppingList();
+          const text = items.join(', ');
+          copyText(text).then(ok => {
+            if(ok){
+              alert('✅ Copied as comma-separated list.');
+            }
+          });
+        });
+      }
+
+      if(shareBtn){
+        shareBtn.addEventListener('click', () => {
+          const text = listAsBullets(getShoppingList());
+          shareText('Shopping list: Vegan Baked Sushi Cups', text)
+            .then(ok => {
+              if(!ok){
+                copyText(text).then(() => alert('Copied! Paste into your notes or messaging app.'));
+              }
+            });
+        });
+      }
+
+      if(txtBtn){
+        txtBtn.addEventListener('click', () => {
+          const text = listAsBullets(getShoppingList());
+          const blob = new Blob([text], {type:'text/plain;charset=utf-8'});
+          const a = document.createElement('a');
+          a.href = URL.createObjectURL(blob);
+          a.download = 'shopping-list-vegan-baked-sushi-cups.txt';
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+          URL.revokeObjectURL(a.href);
+        });
+      }
+
+      if(emailBtn){
+        emailBtn.addEventListener('click', () => {
+          const items = getShoppingList();
+          const subject = encodeURIComponent('Shopping List: Vegan Baked Sushi Cups (Tofu)');
+          const body = encodeURIComponent(
+            'Shopping List:\n\n' +
+            listAsBullets(items) +
+            '\n\nRecipe tools: ' + window.location.href
+          );
+          window.location.href = `mailto:?subject=${subject}&body=${body}`;
+        });
+      }
+    }
+
+    // ----------- STEPS & TIMERS -----------
+    function makeTimer(mm=0, ss=0){
+      let total = mm*60 + ss;
+      let left = total;
+      let interval = null;
+      const span = document.createElement('span');
+      span.className = 'timer';
+      span.textContent = fmt(left);
+
+      function fmt(sec){
+        const m = Math.floor(sec/60);
+        const s = sec % 60;
+        return `${two(m)}:${two(s)}`;
+      }
+      function start(){
+        if(interval) return;
+        interval = setInterval(() => {
+          left--;
+          if(left <= 0){
+            left = 0;
+            clearInterval(interval);
+            interval = null;
+            span.classList.add('done');
+          }
+          span.textContent = fmt(left);
+        }, 1000);
+      }
+      function stop(){
+        if(interval){
+          clearInterval(interval);
+          interval = null;
+        }
+      }
+      function reset(){
+        stop();
+        left = total;
+        span.textContent = fmt(left);
+        span.classList.remove('done');
+      }
+      return {el: span, start, stop, reset};
+    }
+
+    function renderSteps(){
+      const wrap = document.getElementById('steps');
+      wrap.innerHTML = '';
+      RECIPE_DATA.steps.forEach((step, idx) => {
+        const node = document.createElement('div');
+        node.className = 'step';
+        const timer = makeTimer(step.mm, step.ss);
+
+        node.innerHTML = `
+          <div class="step-header">
+            <h3>${idx+1}. ${step.title}</h3>
+            <div class="controls">
+              <span class="timer-placeholder"></span>
+              <button class="btn primary" data-action="start">Start</button>
+              <button class="btn" data-action="stop">Stop</button>
+              <button class="btn" data-action="reset">Reset</button>
+            </div>
+          </div>
+          <p class="muted" style="margin-top:8px;">${step.details}</p>
+        `;
+
+        const placeholder = node.querySelector('.timer-placeholder');
+        placeholder.replaceWith(timer.el);
+
+        node.addEventListener('click', e => {
+          const a = e.target?.getAttribute?.('data-action');
+          if(a === 'start') timer.start();
+          if(a === 'stop') timer.stop();
+          if(a === 'reset') timer.reset();
+        });
+
+        wrap.appendChild(node);
+      });
+    }
+
+    // ----------- SG SAVINGS TABLE -----------
+    function renderSGSavings(){
+      const tbody = document.getElementById('sg-rows');
+      tbody.innerHTML = '';
+      SG_INGREDIENT_SAVINGS.forEach((row, idx) => {
+        const tr = document.createElement('tr');
+        if(idx === 0) tr.classList.add('best-row');
+        tr.innerHTML = `
+          <td>${row.ingredient}</td>
+          <td>
+            <span class="store-tag">
+              <span>Best:</span><span>${row.bestStore}</span>
+            </span>
+          </td>
+          <td>${row.price}</td>
+          <td>${row.others}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    // ----------- FACTS -----------
+    function renderFacts(){
+      const wrap = document.getElementById('facts');
+      wrap.innerHTML = '';
+      RECIPE_DATA.facts.forEach(f => {
+        const box = document.createElement('div');
+        box.className = 'fact';
+        const bullets = (f.bullets || []).map(b => `
+          <div class="fact-bullet">
+            <span class="dot"></span>
+            <span>${b}</span>
+          </div>
+        `).join('');
+        box.innerHTML = `
+          <strong>${f.name}</strong>
+          ${bullets}
+        `;
+        wrap.appendChild(box);
+      });
+    }
+
+    // ----------- CALENDAR -----------
+    function toLocalDatetimeValue(d){
+      const local = new Date(d.getTime() - d.getTimezoneOffset() * 60000);
+      return local.toISOString().slice(0,16);
+    }
+
+    function toGoogleDateTime(d){
+      return d.getUTCFullYear().toString() +
+        two(d.getUTCMonth() + 1) +
+        two(d.getUTCDate()) + 'T' +
+        two(d.getUTCHours()) +
+        two(d.getUTCMinutes()) +
+        two(d.getUTCSeconds()) + 'Z';
+    }
+
+    function initCalendar(){
+      const input = document.getElementById('cal-start');
+      const btn = document.getElementById('open-web-calendar');
+      if(!input || !btn) return;
+
+      const now = new Date();
+      const rounded = new Date(now);
+      rounded.setMinutes(now.getMinutes() + (30 - (now.getMinutes() % 30)) % 30, 0, 0);
+      input.value = toLocalDatetimeValue(rounded);
+
+      btn.addEventListener('click', () => {
+        if(!input.value){
+          alert('Please pick a start date/time first.');
+          return;
+        }
+        const startLocal = new Date(input.value.replace(' ', 'T'));
+        if(isNaN(startLocal)){
+          alert('Invalid date/time.');
+          return;
+        }
+        const TOTAL_MINUTES = 40; // approx prep + bake + serve
+        const endLocal = new Date(startLocal.getTime() + TOTAL_MINUTES * 60 * 1000);
+
+        const title = 'Cook: Vegan Baked Sushi Cups (Tofu)';
+        let details = 'Vegan Baked Sushi Cups with tofu.\n\nSteps:\n';
+        RECIPE_DATA.steps.forEach((s, i) => {
+          details += `${i+1}. ${s.title}\n`;
+        });
+
+        if(document.getElementById('include-shopping-event')?.checked){
+          const items = getShoppingList();
+          if(items.length){
+            details += '\nShopping List:\n' + items.join('\n');
+          }
+        }
+
+        details += '\n\nRecipe tools: ' + window.location.href;
+
+        const url = 'https://calendar.google.com/calendar/render?action=TEMPLATE' +
+          '&text=' + encodeURIComponent(title) +
+          '&dates=' + toGoogleDateTime(startLocal) + '/' + toGoogleDateTime(endLocal) +
+          '&details=' + encodeURIComponent(details) +
+          '&location=Kitchen';
+
+        window.open(url, '_blank', 'noopener');
+      });
+    }
+
+    // ----------- INIT -----------
+    function init(){
+      renderIngredients();
+      renderCustomItems();
+      initShopTools();
+      renderSteps();
+      renderSGSavings();
+      renderFacts();
+      initCalendar();
+
+      const yearEl = document.getElementById('year');
+      if(yearEl){
+        yearEl.textContent = new Date().getFullYear();
+      }
+
+      const sgBtn = document.getElementById('view-full-sg-tool');
+      if(sgBtn){
+        sgBtn.addEventListener('click', () => {
+          // TODO: replace with actual member-only SG tool URL
+          alert('This button will link to your members-only Singapore grocery savings tool.');
+        });
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>
